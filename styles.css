@@ -1,0 +1,135 @@
+@font-face {
+	font-family: "Niveau-Grotesk-Reg-Fb";
+    src: local("Arial");
+    descent-override: 25%;
+    size-adjust: 94%;
+}
+
+@font-face {
+	font-family: "Niveau-Grotesk-Med-Fb";
+	src: local("Arial");
+    size-adjust: 96%;
+    descent-override: 25%;
+}
+
+@font-face {
+	font-family: "Niveau-Grotesk-Bold-Fb";
+	src: local("Arial Bold");
+    size-adjust: 92%;
+    descent-override: 26%;
+}
+
+@font-face {
+	font-family: "Mackinac-Reg-Fb";
+	src: local("Times New Roman");
+	font-style: normal;
+    size-adjust: 112%;
+    descent-override: 24%;
+}
+
+@font-face {
+	font-family: "Mackinac-Reg-Italic-Fb";
+	src: local("Times New Roman Italic");
+    size-adjust: 113%;
+    descent-override: 26%;
+    ascent-override: 25%;
+}
+
+@font-face {
+	font-family: "Mackinac-Med-Fb";
+	src: local("Times New Roman");
+    size-adjust: 115%;
+    descent-override: 19%;
+}
+
+@font-face {
+	font-family: "Mackinac-Med-Italic-Fb";
+	src: local("Times New Roman Italic");
+    size-adjust: 118%;
+    descent-override: 19%;
+}
+
+@font-face {
+	font-family: "Mackinac-Bold-Fb";
+	src: local("Times New Roman Bold");
+    size-adjust: 114%;
+    descent-override: 21%;
+}
+
+@font-face {
+	font-family: "Mackinac-ExtraBold-Fb";
+	src: local("Times New Roman Bold");
+    size-adjust: 116%;
+}
+
+@import url("https://use.typekit.net/sjn1okf.css");
+
+@font-face {
+    font-family:"Niveau-Grotesk-Reg";
+    src:url("https://use.typekit.net/af/dc8fcf/00000000000000003b9ad458/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/dc8fcf/00000000000000003b9ad458/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/dc8fcf/00000000000000003b9ad458/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+    font-display:swap;font-style:normal;font-weight:400;
+}
+@font-face {
+    font-family:"Niveau-Grotesk-Med" ;
+    src:url("https://use.typekit.net/af/cbd3bf/00000000000000003b9ad455/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/cbd3bf/00000000000000003b9ad455/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/cbd3bf/00000000000000003b9ad455/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
+    font-display:swap;font-style:normal;font-weight:500;
+}
+@font-face {
+    font-family:"Niveau-Grotesk-Bold";
+    src:url("https://use.typekit.net/af/2a7fcc/00000000000000003b9ad44c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/2a7fcc/00000000000000003b9ad44c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/2a7fcc/00000000000000003b9ad44c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+    font-display:swap;font-style:normal;font-weight:700;
+}
+@font-face {
+    font-family:"Mackinac-Reg";
+    src:url("https://use.typekit.net/af/e74f6e/00000000000000003b9adb0b/27/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/e74f6e/00000000000000003b9adb0b/27/d?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/e74f6e/00000000000000003b9adb0b/27/a?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n4&v=3") format("opentype");
+    font-display:swap;font-style:normal;font-weight:400;
+}
+@font-face {
+    font-family:"Mackinac-Reg-Italic";
+    src:url("https://use.typekit.net/af/ebec64/00000000000000003b9b2b3e/27/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/ebec64/00000000000000003b9b2b3e/27/d?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/ebec64/00000000000000003b9b2b3e/27/a?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=i4&v=3") format("opentype");
+    font-display:swap;font-style:italic;font-weight:400;
+}
+@font-face {
+    font-family:"Mackinac-Med";
+    src:url("https://use.typekit.net/af/401e16/00000000000000003b9adaf7/27/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n5&v=3") format("woff2"),url("https://use.typekit.net/af/401e16/00000000000000003b9adaf7/27/d?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n5&v=3") format("woff"),url("https://use.typekit.net/af/401e16/00000000000000003b9adaf7/27/a?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n5&v=3") format("opentype");
+    font-display:swap;font-style:normal;font-weight:500;
+}
+@font-face {
+    font-family:"Mackinac-Med-Italic";
+    src:url("https://use.typekit.net/af/21979f/00000000000000003b9adb07/27/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=i5&v=3") format("woff2"),url("https://use.typekit.net/af/21979f/00000000000000003b9adb07/27/d?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=i5&v=3") format("woff"),url("https://use.typekit.net/af/21979f/00000000000000003b9adb07/27/a?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=i5&v=3") format("opentype");
+    font-display:swap;font-style:italic;font-weight:500;
+}
+
+@font-face {
+    font-family:"Mackinac-Bold";
+    src:url("https://use.typekit.net/af/aa781b/00000000000000003b9adb15/27/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/aa781b/00000000000000003b9adb15/27/d?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/aa781b/00000000000000003b9adb15/27/a?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n7&v=3") format("opentype");
+    font-display:swap;font-style:normal;font-weight:700;
+}
+
+@font-face {
+    font-family:"Mackinac-ExtraBold";
+    src:url("https://use.typekit.net/af/6accc7/00000000000000003b9adaf4/27/l?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n8&v=3") format("woff2"),url("https://use.typekit.net/af/6accc7/00000000000000003b9adaf4/27/d?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n8&v=3") format("woff"),url("https://use.typekit.net/af/6accc7/00000000000000003b9adaf4/27/a?primer=7fa3915bdafdf03041871920a205bef951d72bf64dd4c4460fb992e3ecc3a862&fvd=n8&v=3") format("opentype");
+    font-display:swap;font-style:normal;font-weight:800;
+}
+
+.font-1 {
+    z-index: 0;
+    position: relative;
+    color: red;
+    font-size: 100px;
+    font-family: "Mackinac-Reg";
+}
+
+.font-2 {
+    z-index: 1;
+    position: absolute;
+    bottom: 227px;
+    color: blue;
+    font-size: 100px;
+    opacity: .75;
+    font-family: "Mackinac-Reg-Fb";
+}
+
+.font-2.line-2 {
+    bottom: 110px;
+}
